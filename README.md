@@ -2,7 +2,7 @@
 
 An end-to-end machine learning project that predicts product demand using an XGBoost Regressor, with an interactive web app for real-time demand prediction — deployed live on Streamlit Community Cloud.
 
-**Live App:** [Add your Streamlit app link here]
+**Live App:** https://dmd-frcst-ml.streamlit.app/
 
 ---
 
