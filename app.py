@@ -44,5 +44,5 @@ input_encoded = preprocessor.transform(input_data)
 st.divider()
 
 if st.button("Predict Demand"):
-    prediction = model.predict(input_encoded)[0]
+    prediction = max(0, model.predict(input_encoded)[0])
     st.success(f"Predicted Demand: {int(prediction)} units")
